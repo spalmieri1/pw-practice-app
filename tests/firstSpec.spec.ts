@@ -135,5 +135,8 @@ test('assertions lesson', async({page}) => {
     //Soft assertion
     await expect.soft(basicFormButton).toHaveText('Submit')
     await basicFormButton.click()
+})
+
+test('auto-waiting mechanism', async ({page}) => {
 
 })
